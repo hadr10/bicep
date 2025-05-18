@@ -8,7 +8,7 @@ param keyVaultName string
 param enablePurgeProtection bool = true
 
 // the resources to deploy
-module myKeyVault 'br/public:avm/res/key-vault/vault:0.11.0' = {
+module myKeyVault 'br/public:avm/res/key-vault/vault:0.12.1' = {
   name: 'key-vault-deployment'
   params: {
     name: keyVaultName
